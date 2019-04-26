@@ -69,7 +69,7 @@ googleAnalytics = ""
 	[[params.services.list]]
             icon = "fa-handshake"
             title = "Moneyback Guarantee"
-            description = "We provide full refund or replace item if you are not happy and/or the item is faulty."
+            description = "We provide full refund or replace item if you are not happy or the item is faulty."
 
         [[params.services.list]]
             icon = "fa-heart"
