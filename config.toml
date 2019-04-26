@@ -1,0 +1,108 @@
+baseurl = "https://fazitronics.com.au/"
+languageCode = "en-us"
+title = "Fazitronics - Smart Home Electronics"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Fazitronics"
+	description = "We are the trusted provider of various smart home electronics devices."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "FAZITRONICS"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "SMART HOME ELECTRONICS"
+		subtitle   = "We are the trusted provider of various smart electronics devices for smart homes in Australia"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "Faztronics aims to provide everything you need to get your new smart home up and running in no time! All of our devices are affordable, reliable and easy to use."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-gem"
+            title = "Latest Technology"
+            description = "Our devices use cutting edge technologies."
+
+        [[params.services.list]]
+		icon = "fa-paper-plane"
+		title = "Free Delivery"
+		description = "We offer free delivery of our products across Australia."
+
+	[[params.services.list]]
+            icon = "fa-handshake"
+            title = "Moneyback Guarantee"
+            description = "We provide full refund or replace item if you are not happy and/or the item is faulty."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "We love our products and hope you will too."
+
+
+	# Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+	# Aside section
+	[params.aside]
+ 		headline = "Visit our Ebay Store"
+
+		[params.aside.button]
+			text = "Ebay Store"
+			link = "http://stores.ebay.com/fazitronics"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		paypal = "https://paypal.me/fazitronics"
+		email = "fazitronics@gmail.com"
+		ebay = "http://stores.ebay.com/fazitronics"
+
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
