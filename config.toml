@@ -24,7 +24,7 @@ googleAnalytics = ""
 	description = "We are the trusted provider of various smart home electronics devices."
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon_io/favicon.ico"
 
 
 	# Navigation
