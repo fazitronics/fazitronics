@@ -1,0 +1,32 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.contact.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
+                    <hr class="primary">
+                {{ end }}
+                {{ with .Site.Params.contact.description }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+	</div>
+	<div class="row">
+                <div class="col-lg-4 text-center">
+                    <i class="fas fa-envelope fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fab fa-paypal fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="{{ .Site.Params.contact.paypal}}">{{ .Site.Params.contact.paypal}}</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fab fa-ebay fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="{{ .Site.Params.contact.ebay}}">{{ .Site.Params.contact.ebay}}</a></p>
+                </div>
+        </div>
+    </div>
+</section>
