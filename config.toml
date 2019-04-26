@@ -1,4 +1,4 @@
-baseurl = "https://fazitronics.com.au/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Fazitronics - Smart Home Electronics"
 theme = "hugo-creative-theme"
