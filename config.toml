@@ -90,7 +90,7 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Ebay Store"
-			link = "http://stores.ebay.com/fazitronics"
+			link = "https://www.ebay.com/usr/fazitronics"
 
 	# Contact section
 	[params.contact]
