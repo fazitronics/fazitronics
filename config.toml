@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Fazitronics - Smart Home Electronics"
+title = "Fazitronics - Smart home electronics"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -58,22 +58,22 @@ googleAnalytics = ""
 
         [[params.services.list]]
             icon = "fa-gem"
-            title = "Latest Technology"
+            title = "Latest technology"
             description = "Our devices use cutting edge technologies."
 
         [[params.services.list]]
 		icon = "fa-paper-plane"
-		title = "Free Delivery"
+		title = "Free delivery"
 		description = "We offer free delivery of our products across Australia."
 
 	[[params.services.list]]
             icon = "fa-handshake"
-            title = "Moneyback Guarantee"
+            title = "Moneyback guarantee"
             description = "We provide full refund or replace item if you are not happy or the item is faulty."
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Made with Love"
+            title = "Made with love"
             description = "We love our products and hope you will too."
 
 
@@ -86,15 +86,15 @@ googleAnalytics = ""
 
 	# Aside section
 	[params.aside]
- 		headline = "Visit our Ebay Store"
+ 		headline = "Visit our ebay store"
 
 		[params.aside.button]
-			text = "Ebay Store"
+			text = "Ebay store"
 			link = "https://www.ebay.com/usr/fazitronics"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
+		headline = "Let's get in touch!"
 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 		paypal = "https://paypal.me/fazitronics"
 		email = "fazitronics@gmail.com"
