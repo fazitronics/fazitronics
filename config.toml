@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Fazitronics"
-	description = "We are the trusted provider of various smart home electronics devices."
+	description = "We are the trusted provider of various smart door locks."
 
 	# The path must be relative to the static folder
 	favicon = "favicon_io/favicon.ico"
@@ -40,15 +40,15 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "SMART HOME ELECTRONICS"
-		subtitle   = "We are the trusted provider of various smart electronics devices for smart homes in Australia"
+		slogan     = "SMART DOOR LOCKS"
+		subtitle   = "We are the trusted provider of various smart door locks for homes and businesses."
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "We've got what you need!"
-		description = "Faztronics aims to provide everything you need to get your new smart home up and running in no time! All of our devices are affordable, reliable and easy to use."
+		description = "Faztronics aims to provide state of the art smart electronic door locks for smart homes and businesses! All of our devices are affordable, reliable and easy to use."
 		buttonText  = "Get started!"
 
 
