@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Fazitronics"
-	description = "We are the trusted provider of various smart door locks."
+	description = "We are the trusted provider of various smart door locks in Australia."
 
 	# The path must be relative to the static folder
 	favicon = "favicon_io/favicon.ico"
@@ -90,7 +90,7 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Ebay store"
-			link = "https://www.ebay.com.au/str/Fazitronics"
+			link = "https://www.ebay.com.au/usr/fazitronics"
 
 	# Contact section
 	[params.contact]
@@ -98,7 +98,7 @@ googleAnalytics = ""
 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 		paypal = "https://paypal.me/fazitronics"
 		email = "fazitronics@gmail.com"
-		ebay = "https://www.ebay.com.au/str/Fazitronics"
+		ebay = "https://www.ebay.com.au/usr/fazitronics"
 
 
 	# Google Maps section
